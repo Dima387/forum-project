@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стаття</title>
+    <link rel="stylesheet" href="css/article.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="img/logo.png" alt="logo">
+        </div>
+        <button class="theme-button">Dark theme</button>
+        <nav>
+            <button type="button" class="menu-button"><img class="menu-btn" src="img/menu.png" width="60" height="60"
+                    alt="menu" /></button>
+            <ul class="list">
+                <li class="item"><a href="index.html" class="link">Головна</a></li>
+                <li class="item"><a href="#220" class="link">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container light-theme">
+        <h1><b>Стрімерство та стрімінг</b></h1>
+        <div style="display: flex;">
+            <div>
+                <p class="text"><b>Стрімер</b> — це людина, яка веде прямі трансляції (стріми) через інтернет на різних платформах, таких як Twitch, YouTube,
+                Facebook Gaming чи інші. Під час стріму стрімер взаємодіє з аудиторією в реальному часі через чат, демонструє певний
+                контент і отримує підтримку у вигляді донатів, підписок чи спонсорства.
+                </p>
+                <p class="text">
+                Одним із найвідоміших стрімерів на 2024 рік є Kai Cenat, який здобув популярність завдяки своєму розважальному контенту
+                та регулярній взаємодії з аудиторією. Він був номінований як "Стрімер року" на престижних нагородах The Streamer Awards.
+                Його контент охоплює ігри, чати з глядачами, а також унікальні колаборації зі знаменитостями, такими як Кевін Гарт та
+                інші. Kai стрімить переважно на платформі Twitch і має мільйони підписників.
+                </p>
+                <p class="text">
+                <b>6 Найпопулярніших категорій у стрімінгу</b>
+                </p>
+                <p class="text">
+                <b>Ігровий стрімінг</b> - Трансляції ігрового процесу в популярних або нішевих відеоіграх, що приваблюють геймерів і фанатів.
+                </p>
+            </div>
+            <img class="picture" src="img/stream.webp" alt="Навушники та мікрофон">
+        </div>
+        <p class="text">
+        <b>IRL (In Real Life)</b> - Стріми, де стрімер ділиться своїм повсякденним життям, подорожами чи особистими моментами в
+        реальному часі.
+        </p>
+        <p class="text">
+        <b>Розмовний контент</b> - Неформальне спілкування зі своєю аудиторією через Q&A, подкасти або обговорення цікавих тем.
+        </p>
+        <p class="text">
+        <b>Кулінарія</b> - Процес приготування різноманітних страв з акцентом на живе спілкування з глядачами.
+        </p>
+        <p class="text">
+        <b>Мистецтво і творчість</b> - Живі сесії малювання, музичних виступів або рукоділля для поціновувачів креативного контенту.
+        </p>
+        <p class="text">
+        <b>Реакції та огляди</b> - Реакція на відео, меми або інші медіа з інтерактивним обговоренням із глядачами.
+        </p>
+        <p class="text">
+        У 2020 році стрімерство стало надзвичайно популярним через пандемію COVID-19, яка змусила людей шукати нові способи
+        розваг і спілкування вдома. Платформи як Twitch і YouTube Gaming показали рекордний ріст аудиторії, а нові ігри на
+        кшталт Among Us та Fall Guys стали хітами. IRL-стріми, віртуальні події та залучення знаменитостей привернули ще більше
+        уваги, зробивши стрімінг важливою частиною цифрової культури.
+        </p>
+        <div class="interaction">
+            <button class="heart" type="button"><span class="likes-number">0</span></button>
+            <form class="comment-form">
+                <input type="text" class="comment-field" placeholder="Напишіть ваш коментар..." name="commentField" required />
+                <button type="submit" class="submit-button">Відправити</button>
+            </form>
+        </div>
+        <ul class="comment-list"></ul>
+    </main>
+    <footer class="footer-links" id="220">
+        <a href="">Instagram</a>
+        <a href="">Tiktok</a>
+        <a href="">Youtube</a>
+    </footer>
+    <button class="up-button"><b>Up</b></button>
+    <script src="js/burger-menu.js" type="module"></script>
+    <script src="js/up-button.js" type="module"></script>
+    <script src="./js/change_theme_article.js" type="module"></script>
+    <script src="js/like.js" type="module"></script>
+    <script src="js/comment.js" type="module"></script>
+</body>
+</html>

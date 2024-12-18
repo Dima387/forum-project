@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стаття</title>
+    <link rel="stylesheet" href="css/article.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="img/logo.png" alt="logo">
+        </div>
+        <button class="theme-button">Dark theme</button>
+        <nav>
+            <button type="button" class="menu-button"><img class="menu-btn" src="img/menu.png" width="60" height="60"
+                    alt="menu" /></button>
+            <ul class="list">
+                <li class="item"><a href="index.html" class="link">Головна</a></li>
+                <li class="item"><a href="#220" class="link">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container light-theme">
+        <h1><b>Музика як відображення різноманітності</b></h1>
+        <div style="display: flex;">
+            <div>
+                <p class="text">Музика супроводжує людство з давніх-давен. Вона не лише звучить в наших вухах, але торкається серця, виявляє сутність
+                культури та показує, як виразно ми відрізняємося один від одного. Кожен жанр музики можна розглядати як окремий
+                світогляд, що становить частину великої мозаїки.
+                </p>
+                <p class="text">
+                <b>Панк — голос свободи: </b> Панк — це бунт, самовираз та протистояння системі. У 70-х роках цей жанр став символом соціальних змін та анархічної
+                ідеології. Короткі, енергійні пісні протистоять усьому штучному та застарілому.
+                </p>
+                <p class="text">
+                <b>Метал — глибина та могутність: </b> Метал почався як відгук на силу та потужність року. Він розкриває темні та глибокі теми, часто зачіпає філософію та
+                екзистенційні питання. Могутні гітарні рифи та вокальний діапазон металла заряджають слухачів енергією та захоплюють
+                своєю чесністю.
+                </p>
+            </div>
+            <img class="picture" src="img/musik.webp" alt="Скрипковий ключ">
+        </div>
+        <p class="text">
+        <b>Рок — основа мелодії та енергії: </b> Рок завжди залишається живим андерграундним духом, що поєднує усі покоління. Він подолає часові бар’єри та зберігає в
+        собі енергетику, яка охоплює серця мільйонів.
+        </p>
+        <p class="text">
+        <b>Чому ми різні — це добре: </b> Кожний жанр унікальний, як і кожна людина. Музика допомагає зрозуміти, що різноманітність робить наш світ багатшим та
+        цікавішим. Незалежно від того, що ви слухаєте — панк, метал, рок чи інші жанри — це частина вашої особистості, що
+        вносить свій внесок в загальну гармонію.
+        </p>
+        <!-- <p class="text">
+        У Європі є ще море різних перлин. Про які перли ви знаєте? А які відвідали особисто? 
+        Поділіться своїми враженнями!
+        </p> -->
+        <div class="interaction">
+            <button class="heart" type="button"><span class="likes-number">0</span></button>
+            <form class="comment-form">
+                <input type="text" class="comment-field" placeholder="Напишіть ваш коментар..." name="commentField" required />
+                <button type="submit" class="submit-button">Відправити</button>
+            </form>
+        </div>
+        <ul class="comment-list"></ul>
+    </main>
+    <footer class="footer-links" id="220">
+        <a href="">Instagram</a>
+        <a href="">Tiktok</a>
+        <a href="">Youtube</a>
+    </footer>
+    <button class="up-button"><b>Up</b></button>
+    <script src="js/burger-menu.js" type="module"></script>
+    <script src="js/up-button.js" type="module"></script>
+    <script src="./js/change_theme_article.js" type="module"></script>
+    <script src="js/like.js" type="module"></script>
+    <script src="js/comment.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стаття</title>
+    <link rel="stylesheet" href="css/article.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="img/logo.png" alt="logo">
+        </div>
+        <button class="theme-button">Dark theme</button>
+        <nav>
+            <button type="button" class="menu-button"><img class="menu-btn" src="img/menu.png" width="60" height="60"
+                    alt="menu" /></button>
+            <ul class="list">
+                <li class="item"><a href="index.html" class="link">Головна</a></li>
+                <li class="item"><a href="#220" class="link">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container light-theme">
+        <h1><b>Shipping container home</b></h1>
+        <div style="display: flex;">
+            <div>
+                <p class="text">
+                Shipping container homes are an economical, quick, and eco-friendly way of construction that repurposes used containers to create residential or commercial spaces. 
+                They are highly durable, fast to build, but require insulation and may have limited space.
+                </p>
+                <p class="text">
+                The cost of such a container home can vary widely depending on several factors, such as size, the number of containers,
+                additional features, and location. Here are approximate prices:
+                </p>
+                <p class="text">
+                 - Single-container homes: from $25,000 to $80,000.
+                </p>
+                <p class="text">
+                 - Multi-container homes: from $80,000 to $250,000 or more.
+                </p>
+                <p class="text">
+                 - Average cost per square foot: from $150 to $350.
+                </p>
+            </div>
+            <img class="picture" src="img/shipping-container.webp" alt="Shipping container home">
+        </div>
+        <p class="text">
+        Prices can increase if you choose more containers or additional features like high-quality interior finishes, kitchen,
+        bathroom, and others.
+        </p>
+        <!-- <p class="text">
+        <b>4. Котор, Чорногорія: </b> перлина Адріатики
+        Затишний Котор у Чорногорії — це місто, розташоване серед величних гір і мальовничої бухти. Старе місто, що внесене до
+        списку спадщини ЮНЕСКО, сповнене вузьких вуличок, чарівних площ та історичних пам’яток. А для любителів панорам — підйом
+        до фортеці Святого Іоанна забезпечить захоплюючий краєвид.
+        </p> -->
+        <!-- <p class="text">
+        У Європі є ще море різних перлин. Про які перли ви знаєте? А які відвідали особисто? 
+        Поділіться своїми враженнями!
+        </p> -->
+        <div class="interaction">
+            <button class="heart" type="button"><span class="likes-number">0</span></button>
+            <form class="comment-form">
+                <input type="text" class="comment-field" placeholder="Напишіть ваш коментар..." name="commentField" required />
+                <button type="submit" class="submit-button">Відправити</button>
+            </form>
+        </div>
+        <ul class="comment-list"></ul>
+    </main>
+    <footer class="footer-links" id="220">
+        <a href="">Instagram</a>
+        <a href="">Tiktok</a>
+        <a href="">Youtube</a>
+    </footer>
+    <button class="up-button"><b>Up</b></button>
+    <script src="js/burger-menu.js" type="module"></script>
+    <script src="js/up-button.js" type="module"></script>
+    <script src="./js/change_theme_article.js" type="module"></script>
+    <script src="js/like.js" type="module"></script>
+    <script src="js/comment.js" type="module"></script>
+</body>
+</html>

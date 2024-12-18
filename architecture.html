@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стаття</title>
+    <link rel="stylesheet" href="css/article.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="img/logo.png" alt="logo">
+        </div>
+        <button class="theme-button">Dark theme</button>
+        <nav>
+            <button type="button" class="menu-button"><img class="menu-btn" src="img/menu.png" width="60" height="60"
+                    alt="menu" /></button>
+            <ul class="list">
+                <li class="item"><a href="index.html" class="link">Головна</a></li>
+                <li class="item"><a href="#220" class="link">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container light-theme">
+        <h1><b>Бруталізм в архітектурі</b></h1>
+        <div style="display: flex;">
+            <div>
+                <p class="text">Напевно, кожен хто живе в Україні, хоча б з десяток разів зустрічав старі панельки, символ радянської архітектури. Та чи
+                знали ви, що насправді панельки - це теж архітектурний стиль, який був придуманий саме в Англії в XX столітті.
+                </p>
+                <p class="text">
+                Отож, Бруталізм як архітектурний стиль виник в 1950х роках в Англії. Його джерелом є творчість відомого архітектора Ле
+                Корбюзьє.
+                </p>
+                <p class="text">
+                Першим будинком, що нагадував стиль бруталізму в рамках панельок 80х років XX століття і став символом бруталізму був
+                <b>Марсельський блок</b>. 17 - поверховий багатоквартирний будинок в Марселі, що будувався в 1945 - 1952 роках. Став основною
+                житловою одиницею, еталоном. В ньому було вміщено аж 23 типи квартир: для холостяків, багатодітних і простих сімей і
+                багато іншого.
+                </p>
+            </div>
+            <img class="picture" src="img/architecture.jpg" alt="Споруда у стилі бруталізм">
+        </div>
+        <p class="text">
+        Характерними ознаками бруталізму є <b>голий бетон</b> і його природна структура без прикрас і зайвих аксесуарів.
+        Застосовані <b>прості геометричні форми</b>, кути і прямі лінії. У цьому, впринципі і є його основна місія і причина виникнення: відповідь на надмірні декорації та аксесуари поширеної на той час архітектури. 
+        Також застосовані <b>відкриті елементи</b>, такі як колони, балки, що підкреслюють інженерну структуру. Зазвичай такі будівлі вражають своїми розмірами й формами. 
+        Прикладом таких будівель є Geisel Library в Сан - Дієго, США. 
+        </p>
+        <p class="text">
+        Протягом існування цього стилю, він викликав дуже неоднозначну реакцію суспільства: одні захоплюються величчю й
+        масштабами будівель, інші критикують Бруталізм через суворість та відсутність чогось того, що може порадувати кольорами.
+        Та все ж, Бруталізм уособлює сувору реальність цього світу й не дає марних надій. Він є досить дешевим, дивлячись з
+        точки зору економії матеріалів й красивим. Останнім часом бруталізм став дуже актуальним серед сучасних архітекторів,
+        які намагаються створити дух футуризму.
+        </p>
+        <!-- <p class="text">
+        У Європі є ще море різних перлин. Про які перли ви знаєте? А які відвідали особисто? 
+        Поділіться своїми враженнями!
+        </p> -->
+        <div class="interaction">
+            <button class="heart" type="button"><span class="likes-number">0</span></button>
+            <form class="comment-form">
+                <input type="text" class="comment-field" placeholder="Напишіть ваш коментар..." name="commentField" required />
+                <button type="submit" class="submit-button">Відправити</button>
+            </form>
+        </div>
+        <ul class="comment-list"></ul>
+    </main>
+    <footer class="footer-links" id="220">
+        <a href="">Instagram</a>
+        <a href="">Tiktok</a>
+        <a href="">Youtube</a>
+    </footer>
+    <button class="up-button"><b>Up</b></button>
+    <script src="js/burger-menu.js" type="module"></script>
+    <script src="js/up-button.js" type="module"></script>
+    <script src="./js/change_theme_article.js" type="module"></script>
+    <script src="js/like.js" type="module"></script>
+    <script src="js/comment.js" type="module"></script>
+</body>
+</html>

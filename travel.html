@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стаття</title>
+    <link rel="stylesheet" href="css/article.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="img/logo.png" alt="logo">
+        </div>
+        <button class="theme-button">Dark theme</button>
+        <nav>
+            <button type="button" class="menu-button"><img class="menu-btn" src="img/menu.png" width="60" height="60"
+                    alt="menu" /></button>
+            <ul class="list">
+                <li class="item"><a href="index.html" class="link">Головна</a></li>
+                <li class="item"><a href="#220" class="link">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container light-theme">
+        <h1><b>Подорож мрії: відкриваючи приховані перлини Європи</b></h1>
+        <div style="display: flex;">
+            <div>
+                <p class="text">Європа — континент, який зачаровує мандрівників своєю багатою історією, різноманітною культурою та неймовірними
+                краєвидами. Хоча Париж, Лондон чи Рим завжди будуть на перших сторінках туристичних путівників, Європа сповнена
+                маловідомих місць, які варті уваги. Ці приховані перлини пропонують унікальний досвід, автентичність та спокій від
+                галасливих туристичних натовпів. Давайте відкриємо кілька таких місць, що можуть стати ідеальною подорожжю мрії.
+                </p>
+                <p class="text">
+                <b>1. Альбаррасін, Іспанія: </b> середньовічна казка
+                Це маленьке містечко в Арагоні виглядає так, ніби час зупинився у Середньовіччі. З вузькими вуличками, черепковими
+                дахами та фортечними стінами Альбаррасін виглядає як ілюстрація до старовинної казки. Окрім архітектури, туристів
+                приваблює чудова природа — скелі та ущелини, що оточують місто.
+                </p>
+                <p class="text">
+                <b>2. Гальштат, Австрія: </b> альпійська ідилія
+                Хоча Гальштат став трохи популярним завдяки соцмережам, це невелике селище в австрійських Альпах все ще залишається
+                тихим куточком, де можна насолодитись спокоєм і неймовірною красою природи. Озеро, оточене горами, старовинні будинки і
+                шахтарська історія роблять це місце справжнім скарбом для тих, хто любить гармонію природи і культури.
+                </p>
+            </div>
+            <img class="picture" src="img/castle.jpg" alt="Замок">
+        </div>
+        <p class="text">
+        <b>3. Лофотенські острови, Норвегія: </b> полярна магія
+        Лофотени — це рай для любителів дикої природи та романтичних пейзажів. Гострі гори, що здіймаються з Атлантичного
+        океану, традиційні рибальські хатинки та північне сяйво — усе це створює незабутню атмосферу. Це місце ідеально
+        підходить для активного відпочинку: хайкінгу, каякінгу або риболовлі.
+        </p>
+        <p class="text">
+        <b>4. Котор, Чорногорія: </b> перлина Адріатики
+        Затишний Котор у Чорногорії — це місто, розташоване серед величних гір і мальовничої бухти. Старе місто, що внесене до
+        списку спадщини ЮНЕСКО, сповнене вузьких вуличок, чарівних площ та історичних пам’яток. А для любителів панорам — підйом
+        до фортеці Святого Іоанна забезпечить захоплюючий краєвид.
+        </p>
+        <p class="text">
+        У Європі є ще море різних перлин. Про які перли ви знаєте? А які відвідали особисто? 
+        Поділіться своїми враженнями!
+        </p>
+        <div class="interaction">
+            <button class="heart" type="button"><span class="likes-number">0</span></button>
+            <form class="comment-form">
+                <input type="text" class="comment-field" placeholder="Напишіть ваш коментар..." name="commentField" required />
+                <button type="submit" class="submit-button">Відправити</button>
+            </form>
+        </div>
+        <ul class="comment-list"></ul>
+    </main>
+    <footer class="footer-links" id="220">
+        <a href="">Instagram</a>
+        <a href="">Tiktok</a>
+        <a href="">Youtube</a>
+    </footer>
+    <button class="up-button"><b>Up</b></button>
+    <script src="js/burger-menu.js" type="module"></script>
+    <script src="js/up-button.js" type="module"></script>
+    <script src="./js/change_theme_article.js" type="module"></script>
+    <script src="js/like.js" type="module"></script>
+    <script src="js/comment.js" type="module"></script>
+</body>
+</html>

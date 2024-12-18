@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стаття</title>
+    <link rel="stylesheet" href="css/article.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="img/logo.png" alt="logo">
+        </div>
+        <button class="theme-button">Dark theme</button>
+        <nav>
+            <button type="button" class="menu-button"><img class="menu-btn" src="img/menu.png" width="60" height="60"
+                    alt="menu" /></button>
+            <ul class="list">
+                <li class="item"><a href="index.html" class="link">Головна</a></li>
+                <li class="item"><a href="#220" class="link">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container light-theme">
+        <h1><b>Світ ретро автомобілів</b></h1>
+        <div style="display: flex;">
+            <div>
+                <p class="text">Ретро-автомобілі - це символ ностальгії, стилю та інженерії.
+                 Вони нагадують про часи, коли машина була не тільки для пересування, але й виглядала дуже красиво.
+                </p>
+                <p class="text">
+                <b>Історія ретро автомобілів: </b> Класичні автомобілі охоплюють період з кінця 1800-х до 1950-х років. Це час, коли люди робили автомобілі вручну і вони
+                виглядали просунутими. Речення: перший автомобіль, доступний для середнього класу, як-от Ford Model T 1908 року, був
+                представлений широко.
+                </p>
+                <p class="text">
+                <b>Чим приваблюють ретро-автомобілі?: </b>
+            -Дизайн: елегантні лінії та унікальні форми.
+            -Механіка: Надійність і характерний звук двигунів.
+            -Історія: володіти частинкою минулого.
+                </p>
+            </div>
+            <img class="picture" src="img/car.jpg" alt="Ретро автомобіль">
+        </div>
+        <p class="text">
+        <b>Реставрація: </b>
+        Реставрувати старі автомобілі означає відновлювати їх у тому вигляді, в якому вони були на момент створення. Ентузіасти
+        витрачають роки на пошуки запчастин і ремонту.
+        </p>
+        <p class="text">
+        <b>Вартість: </b>Деякі ретро-автомобілі — хороша інвестиція.
+         Ferrari 250 GTO 1962 року продали за 48,4 мільйона доларів.</p>
+        <p class="text">
+        Класичні автомобілі — це не просто спосіб пересування, це символи історії та дизайну. Вони надихають і залишаються
+        символом своєї епохи.
+        </p>
+        <div class="interaction">
+            <button class="heart" type="button"><span class="likes-number">0</span></button>
+            <form class="comment-form">
+                <input type="text" class="comment-field" placeholder="Напишіть ваш коментар..." name="commentField" required />
+                <button type="submit" class="submit-button">Відправити</button>
+            </form>
+        </div>
+        <ul class="comment-list"></ul>
+    </main>
+    <footer class="footer-links" id="220">
+        <a href="">Instagram</a>
+        <a href="">Tiktok</a>
+        <a href="">Youtube</a>
+    </footer>
+    <button class="up-button"><b>Up</b></button>
+    <script src="js/burger-menu.js" type="module"></script>
+    <script src="js/up-button.js" type="module"></script>
+    <script src="./js/change_theme_article.js" type="module"></script>
+    <script src="js/like.js" type="module"></script>
+    <script src="js/comment.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThreadSphere</title>
+    <link rel = "stylesheet" href="css/style.css">
+</head>
+
+<body class="container">
+    <header>
+        <div>
+            <img class="logo" src="img/logo.png" alt="logo">
+        </div>
+        <button class="theme-button">Dark theme</button>
+        <nav>
+            <button type="button" class="menu-button"><img class="menu-btn" src="img/menu.png" width="60" height="60" alt="menu" /></button>
+            <ul class="list">
+                <li class="item"><a href="#110" class="link">Список статтей</a></li>
+                <li class="item"><a href="" class="link">Про розробника</a></li>
+                <li class="item"><a href="#220" class="link">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 class="title">ThreadSphere</h1>
+        </section>
+        <section class="about-us">
+            <div>
+                <h2>ThreadSphere - це нове покоління форумів.</h2>
+                <p>Розпочинайте дискусію з ThreadSphere. Тільки тут вашу думку підхоплять миттю.</p>
+            </div>
+            <div class="count" id="110">
+                <p>Кількість статей на сайті</p>
+                <h3>7</h3>
+            </div>
+        </section>
+        <div class="tooltip">
+            <span class="tooltip-text"></span>
+            <button class="close-button">Закрити</button>
+        </div>
+        <button class="tooltip-button" data-tooltip-text="Щоб скористатися фільтром натисніть кнопку зправа">Фільтр?</button>
+        <select name="news-filter" class="filter">
+            <option value="travel">Україна та світ</option>
+            <option value="it">ІТ</option>
+            <option value="art">Мистецтво</option>
+            <option value="more">Інше</option>
+            <option value="all" selected>Всі статті</option>
+        </select>
+        <section class="article-card news-block" data-category="travel">
+            <div>
+                <h2 class="card-text">Подорож мрії: відкриваючи приховані перлини Європи.</h2>
+                <p>Найкраща підбірка вишуканих перлин Європи</p>
+                <span class="news-tag">#Подорожі </span>
+                <button class="article-button"><a href="travel.html">Читати далі</a></button>
+            </div>
+            <img class="card-img" src="img/castle.jpg" alt="Замок">
+        </section>
+        <section class="article-card news-block" data-category="more">
+            <div>
+                <h2 class="card-text">Світ ретро автомобілів</h2>
+                <p>Пориньте у світ ретро автомобілів</p>
+                <span class="news-tag">#Інше </span>
+                <button class="article-button"><a href="retro_car.html">Читати далі</a></button>
+            </div>
+            <img class="card-img" src="img/car.jpg" alt="Ретро автомобіль">
+        </section>
+        <section class="article-card news-block" data-category="art">
+            <div>
+                <h2 class="card-text">Музика як відображення різноманітності</h2>
+                <p>Дізнайтеся більше про те, що про вас можна сказати за вашим плейлистом.</p>
+                <span class="news-tag">#Мистецтво </span>
+                <button class="article-button"><a href="musik.html">Читати далі</a></button>
+            </div>
+            <img class="card-img" src="img/musik.webp" alt="Скрипковий ключ">
+        </section>
+        <section class="article-card news-block" data-category="art">
+            <div>
+                <h2 class="card-text">Бруталізм в архітектурі</h2>
+                <p>Що таке бруталізм та яка архітектура належить до цього стилю?</p>
+                <span class="news-tag">#Мистецтво </span>
+                <button class="article-button"><a href="architecture.html">Читати далі</a></button>
+            </div>
+            <img class="card-img" src="img/architecture.jpg" alt="Споруда у стилі бруталізм">
+        </section>
+        <section class="article-card news-block" data-category="art">
+            <div>
+                <h2 class="card-text">Shipping container home</h2>
+                <p>Discover what is shippind container homes.</p>
+                <span class="news-tag">#Мистецтво </span>
+                <button class="article-button"><a href="shippind-container.html">Читати далі</a></button>
+            </div>
+            <img class="card-img" src="img/shipping-container.webp" alt="Shipping container home">
+        </section>
+        <section class="article-card news-block" data-category="art">
+            <div>
+                <h2 class="card-text">Класичні стилі танцю</h2>
+                <p>Дивовижна розповідь про танцювальну класику.</p>
+                <span class="news-tag">#Мистецтво </span>
+                <button class="article-button"><a href="dance.html">Читати далі</a></button>
+            </div>
+            <img class="card-img" src="img/dance.jpg" alt="Балетна пара">
+        </section>
+        <section class="article-card news-block" data-category="art">
+            <div>
+                <h2 class="card-text">Стрімінг та стрімерство</h2>
+                <p>Хочете стати стрімером? Тоді ця стаття саме для вас.</p>
+                <span class="news-tag">#Мистецтво </span>
+                <button class="article-button"><a href="stream.html">Читати далі</a></button>
+            </div>
+            <img class="card-img" src="img/stream.webp" alt="Навушники та мікрофон">
+        </section>
+    </main>
+    <footer class="footer-links" id="220">
+        <a href="">Instagram</a>
+        <a href="">Tiktok</a>
+        <a href="">Youtube</a>
+    </footer>
+    <button class="up-button"><b>Up</b></button>
+    <aside class="cookies-agreement">
+        <p>Поки ви знаходитесь на нашому сайті та читаєте новини, ми використовуємо ваші кукіс. Дуже сподіваємось, що ви не
+            проти.</p>
+        <button class="cookies-button" type="button">Окей, продовжуйте</button>
+    </aside>
+    <script src="./js/cookie.js" type="module"></script>
+    <script src="./js/burger-menu.js" type="module"></script>
+    <script src="./js/change_theme_main.js" type="module"></script>
+    <script src="./js/up-button.js" type="module"></script>
+    <script src="./js/filter.js" type="module"></script>
+    <script src="./js/tooltip.js" type="module"></script>
+</body>
+</html>
